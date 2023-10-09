@@ -1,0 +1,3 @@
+[submodule "gr-osmosdr"]
+	path = gr-osmosdr
+	url = https://gitea.osmocom.org/sdr/gr-osmosdr.git
