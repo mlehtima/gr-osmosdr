@@ -5,7 +5,7 @@
 
 Name:          gr-osmosdr
 URL:           http://sdr.osmocom.org/trac/wiki/GrOsmoSDR
-Version:       0.2.4
+Version:       0.2.5
 Release:       1
 License:       GPLv3+
 BuildRequires: cmake
@@ -33,9 +33,7 @@ BuildRequires: python3-six
 Requires(post): /sbin/ldconfig
 Requires(postun): /sbin/ldconfig
 Summary:       Common software API for various radio hardware
-Source0:       https://github.com/osmocom/gr-osmosdr/archive/v%{version}/%{name}-%{version}.tar.gz
-# https://osmocom.org/issues/5562
-Patch0:        gr-osmosdr-0.2.4-gain-fix.patch
+Source0:       %{name}-%{version}.tar.gz
 
 %description
 Primarily gr-osmosdr supports the OsmoSDR hardware, but it also
